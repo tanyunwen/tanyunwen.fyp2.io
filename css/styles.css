@@ -3,21 +3,16 @@ body {
 }
 
 /*Header*/
-.header-navbar {
-    background-color: #000000;
-}
-
 .header {
     margin: 12px;
 }
 
-.logo img {
-    width: 35%;
+.logo-pl {
+    padding-left: 20px;
 }
 
-.logo a {
-    margin-left: 10px;
-    margin-right: 0%;
+.logo img {
+    width: 35%;
 }
 
 .menu {
@@ -25,7 +20,7 @@ body {
 }
 
 .menu a {
-    color: white;
+    color: #ffffff;
 }
 
 .menu a:hover {
@@ -43,15 +38,15 @@ body {
     margin: 5px 0;
 }
 
-.menu-icon：hover {
+.menu .menu-icon：hover {
     border: 3px solid white;
 }
 
-.item-menu a {
+.menu .item-menu a {
     color: black;
 }
 
-.item-menu a:hover {
+.menu .item-menu a:hover {
     color: black;
     text-decoration: underline;
 }
