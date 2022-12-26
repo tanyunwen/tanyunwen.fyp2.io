@@ -51,7 +51,7 @@ body {
     text-decoration: underline;
 }
 
-/*About*/
+/*Search*/
 h1 {
     text-align: center;
     color: white;
@@ -77,8 +77,10 @@ form .searchbtn {
     background-color: white;
 }
 
+
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (900px wide or less)*/
 @media screen and (max-width: 900px) {
+    /*index.html*/
     .bgs h1 {
         font-size: 190%;
     }
@@ -86,17 +88,21 @@ form .searchbtn {
     form {
         padding: 24px 150px;
     }
+    /*index.html*/
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (768px wide or less)*/
 @media screen and (max-width: 768px) {
+    /*index.html*/
     .bgs {
         padding: 15% 0%;
     }
+    /*index.html*/
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (768px wide or less)*/
 @media screen and (max-width: 500px) {
+    /*index.html*/
     .logo-w {
         width: 80%;
     }
@@ -123,5 +129,6 @@ form .searchbtn {
 
     .footer-s {
         font-size: 80%;
-    }    
+    }
+    /*index.html*/
 }
