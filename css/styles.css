@@ -1,3 +1,7 @@
+body {
+    max-width: auto;
+}
+
 /*Header*/
 .header-navbar {
     background-color: #000000;
@@ -56,12 +60,13 @@
 h1 {
     text-align: center;
     color: white;
+    padding-top: 30px;
 }
 
 .bgs {
     background-image: url(../images/bgslideimg.jpg);
     background-size: cover;
-    padding: 18.35% 0%;
+    padding: 17.1% 0%;
 }
 
 form {
@@ -86,21 +91,33 @@ form .searchbtn {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (768px wide or less)*/
 @media screen and (max-width: 768px) {
     .bgs {
-        padding: 16.95% 0%;
+        padding: 15% 0%;
     }
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (768px wide or less)*/
 @media screen and (max-width: 500px) {
-    /*.bgs {
-        padding: 16.95% 0%;
-    }*/
+    .logo-w {
+        width: 80%;
+    }
+
+    .bgs {
+        padding: 13.3% 0%;
+    }
 
     .bgs h1 {
         font-size: 150%;
     }
 
+    .p-search {
+        padding-top: 20px;
+    }
+
     form {
         padding: 3.8px 90px;
+    }
+
+    form .searchbtn img {
+        width: 35px;
     }
 }
