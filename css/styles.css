@@ -1,0 +1,106 @@
+/*Header*/
+.header-navbar {
+    background-color: #000000;
+}
+
+.header {
+    margin: 12px;
+}
+
+.logo img {
+    width: 35%;
+}
+
+.logo a {
+    margin-left: 10px;
+    margin-right: 0%;
+}
+
+.menu {
+    justify-content: flex-end
+}
+
+.menu a {
+    color: white;
+}
+
+.menu a:hover {
+    color: #D28E21;
+}
+
+.menu-space {
+    padding-right: 20px;
+}
+
+.menu-icon {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+}
+
+.menu-icon：hover {
+    border: 3px solid white;
+}
+
+.item-menu a {
+    color: black;
+}
+
+.item-menu a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/*About*/
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.bgs {
+    background-image: url(../images/bgslideimg.jpg);
+    background-size: cover;
+    padding: 18.35% 0%;
+}
+
+form {
+    padding: 50px 200px;
+}
+
+form .searchbtn {
+    background-color: white;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (900px wide or less)*/
+@media screen and (max-width: 900px) {
+    .bgs h1 {
+        font-size: 190%;
+    }
+
+    form {
+        padding: 24px 150px;
+    }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (768px wide or less)*/
+@media screen and (max-width: 768px) {
+    .bgs {
+        padding: 16.95% 0%;
+    }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (768px wide or less)*/
+@media screen and (max-width: 500px) {
+    /*.bgs {
+        padding: 16.95% 0%;
+    }*/
+
+    .bgs h1 {
+        font-size: 150%;
+    }
+
+    form {
+        padding: 3.8px 90px;
+    }
+}
