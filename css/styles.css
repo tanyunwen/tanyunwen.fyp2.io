@@ -63,6 +63,11 @@ h1 {
     padding-top: 30px;
 }
 
+h2 {
+ text-align: center;
+ padding-top: 30px;   
+}
+
 .bgs {
     background-image: url(../images/bgslideimg.jpg);
     background-size: cover;
@@ -120,4 +125,8 @@ form .searchbtn {
     form .searchbtn img {
         width: 35px;
     }
+
+    .footer-s {
+        font-size: 80%;
+    }    
 }
