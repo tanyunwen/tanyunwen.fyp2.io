@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
+  <!-- First Page -->
   <title>New Era University College - Block C Floor 2</title>
 
   <link rel="icon" type="image/x-icon" href="images/neuc-logo-edited.png">
@@ -25,7 +26,7 @@
     crossorigin="anonymous"></script>
 
   <!-- Header -->
-  <nav class="navbar navbar-expand-lg header-navbar bg-dark">
+  <nav class="navbar navbar-expand-lg header-navbar bg-dark"> 
     <div class="container-fluid logo" style="display: contents;">
       <a class="navbar-brand logo-w logo-pl" href="https://www.newera.edu.my/" target="_blank"><img
           src="../NEUC Website/images/neuc-logo-kpt1.png" alt="" width="40%"></a>
@@ -42,7 +43,7 @@
       <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item menu-space">
-            <a class="nav-link" aria-current="page" href="#">ABOUT</a>
+            <a class="nav-link" aria-current="page" href="about.html" target="_blank">ABOUT</a>
           </li>
 
           <li class="nav-item dropdown menu-space">
@@ -50,10 +51,10 @@
               BLOCK C FLOOR 2
             </a>
             <ul class="dropdown-menu item-menu">
-              <li><a class="dropdown-item" href="#">Floor 2 Intro</a></li>
-              <li><a class="dropdown-item" href="#">QR Code Show</a></li>
-              <li><a class="dropdown-item" href="#">2nd. Floor Plan</a></li>
-              <li><a class="dropdown-item" href="#">Other</a></li>
+              <li><a class="dropdown-item" href="intro.html" target="_blank">Floor 2 Intro</a></li>
+              <li><a class="dropdown-item" href="qrcodeshow.html" target="_blank">QR Code Show</a></li>
+              <li><a class="dropdown-item" href="2ndfloorplan.html" target="_blank">2nd. Floor Plan</a></li>
+              <li><a class="dropdown-item" href="other.html" target="_blank">Other</a></li>
             </ul>
           </li>
 
@@ -72,11 +73,13 @@
       <div class="carousel-item active bgs">
         <h1>About NEUC Block C Floor 2</h1>
 
-        <form class="d-flex p-search" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success searchbtn" type="submit"><img src="images/search-icon.png"
-              width="50px"></button>
-        </form>
+        <!-- Example action="https://www.google.com/search" -->
+        <div class="search">
+          <form action="/search" method="get" class="search-bar">
+            <input type="text" placeholder="Search" name="s">
+            <button type="submit"><img src="images/search-icon.png"></button>
+          </form>
+        </div>
       </div>
 
       <!-- class="d-block w-100" -->
