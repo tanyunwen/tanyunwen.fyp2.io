@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
+    <!-- Block C Floor 2 Intro -->
     <title>New Era University College - Block C Floor 2 Intro</title>
 
     <link rel="icon" type="image/x-icon" href="images/neuc-logo-edited.png">
@@ -101,11 +102,13 @@
             #box4 {
                 font-size: 50%;
             }
+
             /*Intro*/
         }
 
         /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (768px wide or less)*/
         @media screen and (max-width: 500px) {
+
             /*Intro*/
             .container-intro {
                 flex-direction: column;
@@ -131,6 +134,7 @@
             #box4 {
                 font-size: 90%;
             }
+
             /*Intro*/
         }
     </style>
@@ -146,7 +150,48 @@
         crossorigin="anonymous"></script>
 
     <!-- Header -->
+    <nav class="navbar navbar-expand-lg header-navbar bg-dark fixed-top">
+        <div class="container-fluid logo" style="display: contents;">
+            <a class="navbar-brand logo-w logo-pl" href="https://www.newera.edu.my/" target="_blank"><img
+                    src="../NEUC Website/images/neuc-logo-kpt1.png" alt="" width="40%"></a>
 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon">
+                    <div class="menu-icon"></div>
+                    <div class="menu-icon"></div>
+                    <div class="menu-icon"></div>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item menu-space">
+                        <a class="nav-link" aria-current="page" href="about.html" target="_blank">ABOUT</a>
+                    </li>
+
+                    <li class="nav-item dropdown menu-space">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            BLOCK C FLOOR 2
+                        </a>
+                        <ul class="dropdown-menu item-menu">
+                            <li><a class="dropdown-item" href="intro.html" target="_blank">Floor 2 Intro</a></li>
+                            <li><a class="dropdown-item" href="qrcodeshow.html" target="_blank">QR Code Show</a></li>
+                            <li><a class="dropdown-item" href="2ndfloorplan.html" target="_blank">2nd. Floor Plan</a>
+                            </li>
+                            <li><a class="dropdown-item" href="other.html" target="_blank">Other</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item menu-space">
+                        <a class="nav-link" href="https://www.newera.edu.my/" target="_blank">NEUC</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <!-- Header -->
 
     <!-- Intro -->
