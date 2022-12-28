@@ -51,84 +51,303 @@ body {
     text-decoration: underline;
 }
 
-/*Search*/
+/*Header*/
+
+/*Search - index.html*/
 h1 {
     text-align: center;
     color: white;
-    padding-top: 30px;
-}
-
-h2 {
- text-align: center;
- padding-top: 30px;   
+    padding: 30px 0px;
 }
 
 .bgs {
     background-image: url(../images/bgslideimg.jpg);
     background-size: cover;
-    padding: 17.1% 0%;
+    padding: 18.75% 0%;
 }
 
-form {
-    padding: 50px 200px;
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-form .searchbtn {
+.search-bar {
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 2px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.search-bar button img {
+    width: 25px;
+    padding-bottom: 2px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+
+/*Search - index.html*/
+
+/*About*/
+/*Search - About*/
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar2 {
+    background: black;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
+
+.search-bar2 input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 20px 10px 0px;
+    font-size: 20px;
+    color: black;
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.search-bar2 button img {
+    width: 25px;
+    padding-left: 1px;
+}
+
+.search-bar2 button {
+    border: 0;
+    border-radius: 25%;
+    width: 40px;
+    height: 40px;
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+/*Search - About*/
+
+/*Desktop About*/
+h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.detail-box {
+    margin: 20px;
+    padding: 30px 30px;
+    background-color: black;
+    border-radius: 35px;
+    text-align: center;
+}
+
+.about-img img {
+    border-radius: 5%;
+}
+
+.button {
+    width: 90%;
     background-color: white;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px 0px 2px;
+    cursor: pointer;
 }
 
+.button:hover {
+    color: white;
+    background-color: #04AA6D;
+}
+
+.detail2 {
+    display: none;
+}
+
+.detail-box2 {
+    margin: 0%;
+    margin-bottom: 30px;
+}
+
+.prev-btn {
+    margin-left: 25px;
+}
+
+.next-btn {
+    margin-right: 25px;
+}
+
+/*Desktop About*/
+/*About*/
+
+/*Plan - 2ndfloorplan.html*/
+h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*Plan - 2ndfloorplan.html*/
+
+/*Container*/
+/*Image Slide*/
+/*Image Slide*/
+
+/*QR Code*/
+/*QR Code*/
+/*Container*/
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (900px wide or less)*/
 @media screen and (max-width: 900px) {
+
     /*index.html*/
     .bgs h1 {
         font-size: 190%;
     }
 
-    form {
-        padding: 24px 150px;
+    .bgs {
+        padding: 16.03% 0%;
     }
+
     /*index.html*/
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (768px wide or less)*/
 @media screen and (max-width: 768px) {
+
     /*index.html*/
     .bgs {
-        padding: 15% 0%;
+        padding: 14.9% 0%;
     }
+
+    .search-bar {
+        width: 70%;
+        max-width: 600px;
+        padding: 10px 20px;
+    }
+
+    .search-bar button img {
+        width: 20px;
+    }
+
+    .search-bar button {
+        width: 50px;
+        height: 50px;
+    }
+
     /*index.html*/
+
+    /*About*/
+    /*Search - About*/
+    .search-bar2 input {
+        padding: 5px 0px 5px 0px;
+        font-size: 15px;
+    }
+
+    .search-bar2 button img {
+        width: 25px;
+        padding-left: 1px;
+    }
+
+    .search-bar2 button {
+        width: 35px;
+        height: 35px;
+    }
+    /*Search - About*/
+
+    /*Tablet About*/
+    .detail {
+        display: none;
+    }
+
+    .detail2 {
+        display: contents;
+    }
+
+    /*Tablet About*/
+    /*About*/
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (768px wide or less)*/
 @media screen and (max-width: 500px) {
+
     /*index.html*/
     .logo-w {
         width: 80%;
     }
 
     .bgs {
-        padding: 13.3% 0%;
+        padding: 14.35% 0%;
     }
 
     .bgs h1 {
         font-size: 150%;
+        padding-top: 30px;
+        padding-bottom: 10px;
     }
 
-    .p-search {
-        padding-top: 20px;
+    .search-bar {
+        width: 70%;
+        padding: 5px 10px;
     }
 
-    form {
-        padding: 3.8px 90px;
+    .search-bar button img {
+        width: 15px;
     }
 
-    form .searchbtn img {
+    ::placeholder {
+        font-size: 90%;
+    }
+
+    .search-bar button {
         width: 35px;
+        height: 35px;
     }
 
     .footer-s {
         font-size: 80%;
     }
+
     /*index.html*/
 }
