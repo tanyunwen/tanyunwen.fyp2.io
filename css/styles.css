@@ -245,12 +245,22 @@ h2 {
 /*QR Code*/
 .qrleft,
 .qrright {
+    display: flex;
+    align-items: center;
     border: 3px black solid;
     margin-bottom: 20px;
 }
 
 .qr-img, .qr-content {
-    padding: 5px 20px 20px 20px;
+    padding: 20px;
+}
+
+.qr-content {
+    padding-left: 0px;
+}
+
+.qr-content h5 {
+    font-size: 15px;
 }
 
 /*QR Code*/
@@ -434,6 +444,14 @@ h2 {
     /*QR Code*/
     .qrleft, .qrright {
         padding: 20px;
+    }
+
+    .qr-img {
+        width: 90%;
+    }
+
+    .qr-content h5 {
+        font-size: 12px;
     }
     /*QR Code*/
 }
