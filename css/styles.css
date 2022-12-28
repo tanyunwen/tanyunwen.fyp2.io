@@ -239,7 +239,7 @@ h2 {
 /*Container*/
 
 /*Other*/
-.other-box {
+.other-box, .other-box2 {
     display: flex;
     text-align: center;
     margin: 20px;
@@ -253,7 +253,7 @@ h2 {
     border-radius: 25px;
 }
 
-.obox img {
+.obox img, .obox2 img {
     border-radius: 25px 25px 0px 0px;
 }
 
@@ -264,6 +264,11 @@ h2 {
 .obox p {
     padding: 20px;
 }
+
+.other-box2 {
+    display: none;
+}
+
 /*Other*/
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (900px wide or less)*/
@@ -376,6 +381,23 @@ h2 {
     .footer-s {
         font-size: 80%;
     }
-
     /*index.html*/
+
+    /*Other*/
+    .other-box {
+        display: none;
+    }
+    /*Other*/
+    
+    /*Phone - Other*/
+    .other-box2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .other-box2 .obox {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    /*Phone - Other*/    
 }
