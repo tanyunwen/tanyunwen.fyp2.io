@@ -119,6 +119,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 50px;
 }
 
 .title h2 {
@@ -161,6 +162,7 @@ h1 {
     background-color: #04AA6D;
     cursor: pointer;
 }
+
 /*Search - About*/
 
 /*Desktop About*/
@@ -239,7 +241,8 @@ h2 {
 /*Container*/
 
 /*Other*/
-.other-box, .other-box2 {
+.other-box,
+.other-box2 {
     display: flex;
     text-align: center;
     margin: 20px;
@@ -253,11 +256,13 @@ h2 {
     border-radius: 25px;
 }
 
-.obox img, .obox2 img {
+.obox img,
+.obox2 img {
     border-radius: 25px 25px 0px 0px;
 }
 
-.obox h5, .obox p {
+.obox h5,
+.obox p {
     padding-top: 20px;
 }
 
@@ -327,6 +332,7 @@ h2 {
         width: 35px;
         height: 35px;
     }
+
     /*Search - About*/
 
     /*Tablet About*/
@@ -381,14 +387,16 @@ h2 {
     .footer-s {
         font-size: 80%;
     }
+
     /*index.html*/
 
     /*Other*/
     .other-box {
         display: none;
     }
+
     /*Other*/
-    
+
     /*Phone - Other*/
     .other-box2 {
         display: flex;
@@ -399,5 +407,6 @@ h2 {
         width: 100%;
         margin-bottom: 25px;
     }
-    /*Phone - Other*/    
+
+    /*Phone - Other*/
 }
