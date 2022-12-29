@@ -51,6 +51,11 @@ body {
     text-decoration: underline;
 }
 
+.menu .item-menu a:focus {
+    background-color: #2ecc71;
+    color: #f0f0f0;
+  }
+
 /*Header*/
 
 /*Search - index.html*/
