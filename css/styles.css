@@ -120,6 +120,10 @@ h1 {
 
 /*About*/
 /*Search - About*/
+.add-margin {
+    margin-top: 74px;
+}
+
 .about {
     display: flex;
     justify-content: space-between;
@@ -427,6 +431,9 @@ h2 {
         font-size: 80%;
     }
 
+    .add-margin {
+        margin-top: 69px;
+    }
     /*index.html*/
 
     /*Other*/
