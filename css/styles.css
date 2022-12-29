@@ -54,7 +54,7 @@ body {
 .menu .item-menu a:focus {
     background-color: #2ecc71;
     color: #f0f0f0;
-  }
+}
 
 /*Header*/
 
@@ -256,7 +256,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-.qr-img, .qr-content {
+.qr-img,
+.qr-content {
     padding: 20px;
 }
 
@@ -382,6 +383,7 @@ h2 {
     .img-slide {
         margin-bottom: 20px;
     }
+
     /*Image Slide*/
 }
 
@@ -444,10 +446,12 @@ h2 {
         width: 100%;
         margin-bottom: 25px;
     }
+
     /*Phone - Other*/
-    
+
     /*QR Code*/
-    .qrleft, .qrright {
+    .qrleft,
+    .qrright {
         padding: 20px;
     }
 
@@ -458,5 +462,6 @@ h2 {
     .qr-content h5 {
         font-size: 12px;
     }
+
     /*QR Code*/
 }
